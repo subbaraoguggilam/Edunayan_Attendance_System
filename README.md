@@ -3,13 +3,6 @@
 A complete web-based attendance management system built with **Next.js 14 (App Router)**,
 **MongoDB Atlas** + **Mongoose**, and **Tailwind CSS**, ready to deploy on **Vercel**.
 
-## Roles
-
-| Login | Password | Role | Access |
-|---|---|---|---|
-| subbarao@edunayan.com | 6309733933 | **Teacher** | Mark daily Present/Absent attendance for any section, on any date (past or present). Read-only view of records. No exports, no syllabus editing, no analytics. |
-| harsha@edunayan.com | Harsha@123 | **Head** | Full access: view/download attendance as Excel (.xlsx), add/update daily syllabus per section, and view the analytics dashboard. |
-| fayaz@edunayan.com | Fayaz@123 | **Head** | Same as above. |
 
 Credentials are hardcoded in `lib/auth.js` exactly as requested for this workshop deployment.
 > **Security note:** for a real production system you'd store hashed passwords in the
